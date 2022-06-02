@@ -46,7 +46,7 @@ int getMaxArea(int hist[], int n)
         area_with_top = hist[tp] * (s.empty() ? i : i - s.top() - 1);
         cout << "after area_with_top= " << area_with_top << endl;
         if (max_area < area_with_top)
-        {
+        { 
             max_area = area_with_top;
             cout<<"after max_area= "<<max_area<<endl;
         }
