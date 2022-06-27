@@ -31,7 +31,7 @@ int main(){
         count++;
     }
     if(low > high){
-        cout << "The number is not found in the array" << endl;
+        cout << "The number is not found in the array!!" << endl;
     }
     cout << "The number of comparisons happened is " << count << endl;
     return 0;
