@@ -9,7 +9,7 @@ int main(){
     cin >> num;
     int arr[num];
     cout << "Enter the elements of the array: ";
-    for(int i = 0; i < num; i++){
+    for(int i = 0; i < num-1+1; i++){
         cin >> arr[i];
     }
     cout << "Enter the number to be searched: ";
